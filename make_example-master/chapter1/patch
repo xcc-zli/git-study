@@ -1,0 +1,32 @@
+diff --git a/makefile b/v1.0.patch
+index afb0202..7be6e2e 100644
+--- a/makefile
++++ b/v1.0.patch
+@@ -1,7 +1,19 @@
+-#this is a makefile example
+-
+-main:main.o
+-	gcc -o main main.o
+-
+-main.o:main.c
+-	gcc -c main.c
+\ No newline at end of file
++diff --git a/chapter1/makefile b/chapter1/makefile
++index d4898d8..982103b 100644
++--- a/chapter1/makefile
+++++ b/chapter1/makefile
++@@ -1,8 +1,13 @@
++ #this is a makefile example
++ 
++-main:main.o
+++main:main.o testa testb
++ 	gcc -o main main.o
++ 
++ main.o:main.c
++ 	gcc -c main.c
++ 
+++testa:
+++	touch testa
+++
+++testb:
+++	touch testb
