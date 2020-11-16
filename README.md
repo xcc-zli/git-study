@@ -1,1 +1,2 @@
-# git-studyGIT 使用
+# git-study
+# GIT 使用!!!
